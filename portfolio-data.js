@@ -39,7 +39,7 @@
       scope: [['Подготовка', 'Месяц работы над программой.'], ['Вовлечение', '80 сотрудников в подготовке и выступлениях.'], ['Музыкальный контент', 'Подготовка номеров и запись песен.'], ['Событие', 'Живое шоу для 1 000 гостей.']],
       photos: ['r100__party_hero.webp', 'r100__party_hall.webp', 'r100__party_stage.webp', 'r100__party_crowd.webp', 'r100__party_cake.webp', 'r100__party_selfie.webp', 'r100__party_bands.webp'] },
 
-    { slug: 'recordati-ciklovaya-konferenciya', priority: 3, client: 'Recordati', logo: L + 'Recordati_1600.png',
+    { slug: 'recordati-ciklovaya-konferenciya', priority: 3, client: 'Recordati', logo: L + 'Recordati_1600.webp',
       format: 'Цикловая конференция в Абу-Даби', title: 'Бизнес и эмоции',
       lead: 'Пять дней деловой программы для 250 участников: маркетинговые сессии, тренинги, сафари-квест и гала-ужин.',
       place: 'Абу-Даби, ОАЭ', formats: ['cycle', 'conf'], industries: ['pharma'],
@@ -49,7 +49,7 @@
       scope: [['Деловая программа', '12 маркетинговых сессий, 4 тренинга и тестирование.'], ['Совместный опыт', 'Сафари-квест в пустыне.'], ['Вечерняя часть', 'Гала-ужин и развлекательная программа.'], ['Масштаб', '250 участников, 5 дней.']],
       photos: ['pkg__hero_recordati.webp', 'pkg__album_recordati_1.webp', 'pkg__album_recordati_2.webp', 'v6__S42_01_RECORDATI_GALA.webp'], note: ILL },
 
-    { slug: 'alfa-bank-alfa-port-kamchatka', priority: 1, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.png',
+    { slug: 'alfa-bank-alfa-port-kamchatka', priority: 1, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.webp',
       format: 'Выездная программа на Камчатке', title: 'Альфа Порт. Камчатка',
       lead: 'Деловая программа, горные маршруты и финальный вечер на побережье Тихого океана.',
       place: 'Камчатка', formats: ['trip'], industries: ['bank'],
@@ -59,7 +59,7 @@
       scope: [['Деловая программа', 'Встречи участников, нетворкинг и лекция вулканолога.'], ['Локальный опыт', 'Мастер-класс по оберегам и знакомство с культурой Камчатки.'], ['Сопровождение', 'Гиды-координаторы 24/7 на протяжении всей программы.'], ['Финал у океана', 'Ужин и музыкальная программа на Халактырском пляже.']],
       photos: ['opt__photos__25_Alfa_Kamchatka__01_hero.webp', 'opt__pkg__src__original_11_0.webp', 'opt__pkg__src__original_11_1.webp', 'opt__pkg__src__original_11_2.webp', 'opt__pkg__src__original_12_0.webp', 'opt__pkg__src__original_12_1.webp', 'opt__pkg__src__original_12_2.webp', 'opt__pkg__src__original_12_3.webp', 'opt__pkg__src__original_12_4.webp', 'opt__pkg__src__original_12_5.webp'] },
 
-    { slug: 'vsk-goluboj-ogonyok', priority: 4, client: 'Страховой дом ВСК', logo: L + 'VSK_1600.png',
+    { slug: 'vsk-goluboj-ogonyok', priority: 4, client: 'Страховой дом ВСК', logo: L + 'VSK_1600.webp',
       format: 'Новогодний корпоратив в формате «Голубого огонька»', title: 'В Новый год открываем 1000 талантов',
       lead: 'Сотрудники стали героями ВСК-TV, программу дополнили онлайн-голосование, награждение и яркий финал.',
       place: 'Москва', formats: ['ny', 'party'], industries: ['ins'],
@@ -69,7 +69,7 @@
       scope: [['Формат', '«Голубой огонёк» и ВСК-TV.'], ['Участники', '1000 сотрудников — герои истории и программы.'], ['Голосование', 'Онлайн-приложение для голосования.'], ['Финал', 'Награждение и финальный пневмофейерверк.']],
       photos: ['v6__VSK_61_HERO_3T5A3302.webp', 'v6__VSK_63_01_INTERACTIVE_3T5A3271.webp', 'v6__VSK_63_02_SHOW_3T5A2850.webp', 'v6__VSK_63_03_ARTIST_3T5A2976.webp', 'v6__VSK_63_04_AWARDS_3T5A3535.webp', 'v6__VSK_63_05_DECOR_IMG_0794.webp', 'v6__VSK_63_06_GUESTS_IMG_1923.webp'] },
 
-    { slug: 'kortros-den-stroitelya', priority: 7, client: 'Кортрос', logo: L + 'Kortros_1600.png',
+    { slug: 'kortros-den-stroitelya', priority: 7, client: 'Кортрос', logo: L + 'Kortros_1600.webp',
       format: 'День строителя для сотрудников и их семей', title: 'Строим вместе',
       lead: 'Семейный праздник с детскими активностями, спортивными играми, мастер-классами и музыкальной программой в пяти городах.',
       place: 'Москва и регионы', formats: ['family', 'party'], industries: ['dev'],
@@ -79,7 +79,7 @@
       scope: [['Детские активности', 'Отдельная программа для детей.'], ['Спортивные игры', 'Командные и семейные состязания.'], ['Мастер-классы', 'Активности для взрослых и детей.'], ['Музыкальная программа', 'Сцена и выступления артистов.']],
       photos: ['r100__s096_xref730.webp', 'r100__s96_audience.webp', 'r100__s96_lake_panorama.webp', 'r100__s96_singers.webp', 'r100__s96_lawn.webp', 'r100__s094_xref719.webp', 'photos__23_Kortros_Builders__p07w.webp', 'photos__23_Kortros_Builders__p08w.webp'] },
 
-    { slug: 't-bank-nizhnij-novgorod', priority: 5, client: 'Т-Банк', logo: L + 'T_Bank_1600.png',
+    { slug: 't-bank-nizhnij-novgorod', priority: 5, client: 'Т-Банк', logo: L + 'T_Bank_1600.webp',
       format: 'Четырёхдневный выезд в Нижний Новгород', title: 'Город. Парус. Команда.',
       lead: 'Деловая программа, иммерсивный маршрут по «Заповедным кварталам», вечер на теплоходе и парусная регата.',
       place: 'Нижний Новгород', formats: ['trip'], industries: ['bank'],
@@ -89,7 +89,7 @@
       scope: [['Деловая часть', 'Конференц-зал отеля «Кулибин».'], ['Город', 'Иммерсивная программа в «Заповедных кварталах».'], ['Вечер', 'Вечерняя программа на теплоходе.'], ['Регата', 'Парусная регата.']],
       photos: ['photos__01_TBank_Nizhny__hero.webp', 'photos__01_TBank_Nizhny__p01w.webp', 'r100__s006_xref107.webp', 'photos__01_TBank_Nizhny__p06w.webp', 'photos__01_TBank_Nizhny__p03w.webp', 'photos__01_TBank_Nizhny__p04w.webp', 'photos__01_TBank_Nizhny__p05w.webp', 'kit__o__s05_conference.webp', 'kit__o__s05_group.webp'] },
 
-    { slug: 'haier-vstrecha-na-vode', priority: 9, client: 'Haier', logo: L + 'Haier_black_1600.png',
+    { slug: 'haier-vstrecha-na-vode', priority: 9, client: 'Haier', logo: L + 'Haier_black_1600.webp',
       format: 'Партнёрская встреча на теплоходе', title: 'Встреча на воде',
       lead: 'Ужин, интерактивная программа и маршрут по Москве-реке на теплоходе флотилии Radisson.',
       place: 'Москва, флотилия Radisson', formats: ['partner'], industries: ['ind'],
@@ -99,7 +99,7 @@
       scope: [['Площадка', 'Аренда теплохода и ужин на борту.'], ['Программа', 'Интерактивная программа для гостей.'], ['Город', 'Маршрут по Москве-реке.'], ['Сопровождение', 'Организация программы и работа команды на площадке.']],
       photos: ['photos__16_Haier_Cruise__hero.webp', 'photos__16_Haier_Cruise__p01w.webp', 'photos__16_Haier_Cruise__p02w.webp', 'photos__16_Haier_Cruise__p03w.webp', 'photos__16_Haier_Cruise__p04w.webp', 'photos__16_Haier_Cruise__p05w.webp', 'photos__16_Haier_Cruise__p06w.webp'] },
 
-    { slug: 'gk-fsk-otkrytie-shkoly', priority: 10, client: 'ГК ФСК', logo: L + 'FSK_1600.png',
+    { slug: 'gk-fsk-otkrytie-shkoly', priority: 10, client: 'ГК ФСК', logo: L + 'FSK_1600.webp',
       format: 'Торжественное открытие школы в Химках', title: 'Открывая будущее',
       lead: 'Оформление пространства, фотозона и праздничная программа с участием почётных гостей в ЖК «1-й Шереметьевский».',
       place: 'Химки, Подрезково', formats: ['opening'], industries: ['dev'],
@@ -110,7 +110,7 @@
       extra: 'Почётные гости: глава городского округа Химки Инна Федотова, депутат Государственной Думы Денис Кравченко, министр образования Московской области Ингрид Пильдес. Также: Владислав Мирзонов, Александр Лебзяк, Денис Беляев.',
       photos: ['pkg__hero_school.webp', 'pkg__src__original_51_0.webp', 'opt__pkg__src__original_51_1.webp', 'pkg__src__original_51_2.webp', 'pkg__src__original_51_3.webp', 'pkg__src__original_51_4.webp', 'pkg__src__original_hero_50.webp'] },
 
-    { slug: 'alfa-bank-novogodnyaya-istoriya', priority: 8, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.png',
+    { slug: 'alfa-bank-novogodnyaya-istoriya', priority: 8, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.webp',
       format: 'Новогодний семейный праздник в «Метрополе»', title: 'Новогодняя история',
       lead: 'Отдельные программы для взрослых и детей, мастер-классы, детское представление и праздничный банкет.',
       place: 'Москва, «Метрополь»', formats: ['ny', 'family', 'partner'], industries: ['bank'],
@@ -120,7 +120,7 @@
       scope: [['Мастер-классы', 'Активности для гостей всех возрастов.'], ['Детское представление', 'Сцена «Щелкунчика» и детская зона.'], ['Праздничный банкет', 'Общий банкетный зал со сценой.'], ['Музыкальная программа', 'Ведущие, артисты и пианистка у ёлки.']],
       photos: ['r100__s67_family_confetti.webp', 'r100__s67_interaction_adults.webp', 'kit__p__ny_hall.webp', 'r100__s69_nutcracker_stage.webp', 'r100__s69_alfa_hosts.webp', 'r100__s69_pianist.webp', 'photos__15_Alfa_NewYear__p05w.webp', 'kit__p__ny_nutcracker.jpg', 'kit__p__ny_decor_a.webp'] },
 
-    { slug: 't-bank-serf-kemp', priority: 12, client: 'Т-Банк', logo: L + 'T_Bank_1600.png',
+    { slug: 't-bank-serf-kemp', priority: 12, client: 'Т-Банк', logo: L + 'T_Bank_1600.webp',
       format: 'Корпоративный сёрф-кемп в Зеленоградске', title: 'На своей волне',
       lead: 'Рабочие сессии у Балтийского моря, четыре утра сёрфинга и финальный ужин с DJ.',
       place: 'Зеленоградск', formats: ['trip'], industries: ['bank'],
@@ -140,7 +140,7 @@
       scope: [['Технологии', 'Знакомство с технологиями Сеула.'], ['Роботы-официанты', 'Рестораны с роботами-официантами.'], ['Гастрономия', 'Гастрономические открытия города.'], ['Гала-ужин', 'Гала-ужин на круизном лайнере по ночному городу.']],
       photos: ['kit__old__seoul_4.jpeg', 'r100__s54_left_street_upscale.webp', 'r100__s54_topright_dinner_upscale.webp', 'r100__s54_bottomright_robot_upscale.webp'], note: OLD },
 
-    { slug: 'alfa-bank-stend-tendertech', priority: 11, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.png',
+    { slug: 'alfa-bank-stend-tendertech', priority: 11, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.webp',
       format: 'Выставочный стенд на ТендерТех Конф', title: 'Бренд в пространстве',
       lead: 'Выставочное пространство банка с зоной общения, стойкой, витринами и интерактивным элементом.',
       place: 'Москва, ТендерТех Конф', formats: ['expo'], industries: ['bank'],
@@ -160,7 +160,7 @@
       scope: [['Площадка', 'Теплоход флотилии Radisson и ресторанная программа.'], ['Общение', 'Интерактивная программа и работа ведущего.'], ['Музыка', 'Кавер-группа и вечерняя музыкальная программа.'], ['Оформление', 'Тематическое оформление пространства и техническое сопровождение.']],
       photos: ['photos__17_OTLK_NewYear__hero.webp', 'photos__17_OTLK_NewYear__p01w.webp', 'photos__17_OTLK_NewYear__p02w.webp', 'photos__17_OTLK_NewYear__p03w.webp', 'photos__17_OTLK_NewYear__p04w.webp', 'photos__17_OTLK_NewYear__p05w.webp'] },
 
-    { slug: 'sberbank-500-vypusknoj', priority: 6, client: 'Сбербанк', logo: L + 'Sberbank_1600.png',
+    { slug: 'sberbank-500-vypusknoj', priority: 6, client: 'Сбербанк', logo: L + 'Sberbank_1600.webp',
       format: 'Конференция и выпускная церемония программы «Сбербанк 500»', title: 'Выпускной, о котором вы мечтали',
       lead: 'Интерактивные зоны, выступление Фёдора Конюхова, вручение дипломов и музыкальный финал в кампусе Сбербанка.',
       place: 'Аносино, кампус Сбербанка', formats: ['conf', 'party'], industries: ['bank'],
@@ -170,7 +170,7 @@
       scope: [['Конференция', 'Деловая часть для выпускников программы.'], ['Интерактивные зоны', 'Зоны для участников на площадке кампуса.'], ['Выступление', 'Фёдор Конюхов на сцене выпускного.'], ['Церемония и финал', 'Вручение дипломов, фуршет, музыкальная группа и дискотека.']],
       photos: ['kit__old__sber_3.jpeg', 'kit__old__sber_4.jpeg', 'kit__old__sber_2.jpeg', 'kit__old__sber_1.webp', 'kit__old__sber_5.jpeg'], note: OLD },
 
-    { slug: 'alfa-bank-biznes-zavtrak', priority: 16, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.png',
+    { slug: 'alfa-bank-biznes-zavtrak', priority: 16, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.webp',
       format: 'Бизнес-завтрак для партнёров', title: 'Диалог за завтраком',
       lead: 'Welcome-фуршет, деловой блок и нетворкинг в панорамном ресторане «Невесомость».',
       place: 'Москва, «Невесомость»', formats: ['partner'], industries: ['bank'],
@@ -190,7 +190,7 @@
       scope: [['Рабочие сессии', 'Рабочие сессии в Дохе для 50 топ-менеджеров.'], ['Город и культура', 'Музеи, Souq Waqif и Qanat Quartier.'], ['Сафари и ферма', 'Сафари и визит на Heenat Salma Farm.'], ['Спорт', 'Финал AFC Asian Cup.']],
       photos: ['r100__s49_qatar_upscale.webp', 'kit__old__qa_2.webp', 'kit__old__qa_3.jpeg'], note: OLD },
 
-    { slug: 'alfa-bank-arhyz', priority: 18, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.png',
+    { slug: 'alfa-bank-arhyz', priority: 18, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.webp',
       format: 'Выездная программа для партнёров в Архызе', title: 'Иной горизонт',
       lead: 'Деловая встреча, горный маршрут и вечерние встречи для партнёров банка.',
       place: 'Архыз', formats: ['trip', 'partner'], industries: ['bank'],
@@ -219,7 +219,7 @@
       scope: [['Герои', 'Персонажи, созданные для участников компании.'], ['Сценарий', 'Собственный сценарий и любовная линия.'], ['Музыкальная история', 'Мюзикл с участниками компании на сцене.'], ['Интерактив', 'Лотерея и ИИ-фотобудка.']],
       photos: ['r100__s66_left_show_upscale.webp', 'r100__s064_xref520.webp', 'r100__s66_topright_hall_upscale.webp', 'r100__s66_bottomright_service_upscale.webp'], note: OLD },
 
-    { slug: 'rtk-cod-launzh-zona', priority: 22, client: 'РТК-ЦОД', logo: L + 'RTK_COD_1600.png',
+    { slug: 'rtk-cod-launzh-zona', priority: 22, client: 'РТК-ЦОД', logo: L + 'RTK_COD_1600.webp',
       format: 'Брендированная лаунж-зона на открытой площадке', title: 'Место для встречи',
       lead: 'Шатёр «Звезда», выездной бар, мягкая посадка и игровые активности для 120 гостей.',
       place: 'Площадка HIDE', formats: ['expo'], industries: ['it'],
@@ -229,7 +229,7 @@
       scope: [['Шатёр', 'Шатёр «Звезда» 10 × 10 м. Монтаж, демонтаж, доставка и погрузка.'], ['Зона отдыха', '10 брендированных пуфов и коктейльные столы с текстилем.'], ['Бар', 'Выездной бар «Онегин» на 120 гостей, 3 бармена и светящаяся барная стойка.'], ['Брендинг и активности', 'Брендированная дженга, мерч, дизайн схемы и работа хелперов.']],
       photos: ['opt__pkg__hero_tent.webp', 'pkg__src__tent_ref_1.jpg', 'pkg__album_tent_1.webp', 'pkg__album_tent_3.webp'], note: ILL },
 
-    { slug: 'alfa-digital-open', priority: 14, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.png',
+    { slug: 'alfa-digital-open', priority: 14, client: 'Альфа-Банк', logo: L + 'Alfa_Bank_1600.webp',
       format: 'Онлайн-форум о цифровом бизнесе и HR', title: 'Alfa Digital Open',
       lead: 'Выступления экспертов в студии банка, вопросы участников в Zoom и трансляция на YouTube.',
       place: 'Москва, офис банка и онлайн', formats: ['conf'], industries: ['bank'],
@@ -250,7 +250,7 @@
       scope: [['Проживание', 'Pullman Naithon 5*: номера Deluxe с видом на сад и полупансион.'], ['Морская программа', 'Две прогулки на 51-футовом моторном катамаране Leopard с обедом на борту.'], ['Активный день', 'Рафтинг, квадроциклы и зиплайн в Пхангнга.'], ['Вечера и логистика', 'Seafood Market и CATCH Beach Club, трансферы на минивэнах и русскоязычные гиды.']],
       photos: ['r100__s033_xref352.webp', 'pkg__hero_technonicol.webp', 'v6__S33_02_TECHNONICOL_LEOPARD.webp', 'v6__S33_01_TECHNONICOL_ATV.webp'], note: ILL },
 
-    { slug: 'mastercard-alfa-bank-stambul', priority: 13, client: 'Mastercard × Альфа-Банк', logo: L + 'Mastercard_1600.png', logo2: L + 'Alfa_Bank_1600.png',
+    { slug: 'mastercard-alfa-bank-stambul', priority: 13, client: 'Mastercard × Альфа-Банк', logo: L + 'Mastercard_1600.webp', logo2: L + 'Alfa_Bank_1600.webp',
       format: 'Деловая поездка в Стамбул', title: 'Босфорский диалог',
       lead: 'Встреча в офисе Mastercard, обмен опытом, прогулка на яхте и коктейльная программа.',
       place: 'Стамбул, Турция', formats: ['trip', 'partner'], industries: ['bank'],
@@ -289,7 +289,7 @@
       scope: [['Деловая часть', 'Зал «Калипсо», конференц-пакет, базовое оборудование, кофе-брейки и обед.'], ['Горные маршруты', 'Кок-Тобе и ужин в «Абае», треккинг в Ой-Карагай, Медеу и Чимбулак для части группы.'], ['Участие гостей', 'Стрельба из лука, конная прогулка, асыки и мастер-класс по кожаным картхолдерам.'], ['Гала и сопровождение', 'Ужин в ресторане «1820», звук и технический специалист, групповые трансферы и гиды.']],
       photos: ['pkg__album_almaty_1.webp', 'pkg__hero_almaty.webp', 'kit__r__s36_02_almaty_mountains.webp', 'pkg__album_almaty_3.webp'], note: ILL },
 
-    { slug: 'petrovich-fethie', priority: 24, client: 'Петрович', logo: L + 'Petrovich_1600.png',
+    { slug: 'petrovich-fethie', priority: 24, client: 'Петрович', logo: L + 'Petrovich_1600.webp',
       format: 'Поездка для победителей партнёрской акции', title: 'Под парусом',
       lead: 'Проживание в AKRA Fethiye, частная регата на восемь часов и знакомство с регионом.',
       place: 'Фетхие, Турция', formats: ['incentive', 'partner'], industries: ['dev'],
@@ -328,7 +328,7 @@
       scope: [['Проживание', 'Fairmont Peace Hotel 5*. Размещение группы и координация индивидуальных изменений.'], ['Локальная логистика', 'Автобусные трансферы по программе, китайский гид и координаторы.'], ['Гастрономия', 'Ужин в Fellas и ресторанная программа, включая Lost Heaven.'], ['Гала-ужин', 'Красно-чёрный декор, китайские фонарики, световое и звуковое оборудование, пресс-волл.']],
       photos: ['kit__o__s28_people.webp', 'kit__r__s30_01_shanghai_river.webp', 'kit__r__s30_02_shanghai_gala.webp', 'v6__S30_01_SHANGHAI_BAR.webp'], note: ILL },
 
-    { slug: 'haier-cindao', priority: 25, client: 'Haier', logo: L + 'Haier_black_1600.png',
+    { slug: 'haier-cindao', priority: 25, client: 'Haier', logo: L + 'Haier_black_1600.webp',
       format: 'Серия деловых поездок в Циндао', title: 'Ближе к технологиям',
       lead: 'Авиаперелёты, Le Méridien Qingdao 5*, локальная логистика и ресторанная программа.',
       place: 'Циндао, Китай', formats: ['trip'], industries: ['ind'],
@@ -338,7 +338,7 @@
       scope: [['Логистика', 'Перелёты Москва — Циндао, стыковки с Санкт-Петербургом и страхование.'], ['Проживание', 'Le Méridien Qingdao 5*: номера Deluxe с завтраком.'], ['На месте', 'Городские трансферы на автобусе и сопровождение менеджером DMC.'], ['Вечерняя программа', 'Ресторанные ужины, в том числе LIANLU Seafood, Tomachi и гала-ужин в SkyLine.']],
       photos: ['pkg__album_qingdao_1.webp', 'pkg__hero_qingdao.webp', 'v6__S21_01_HAIER_GALA.webp', 'v6__S21_02_HAIER_SERVICE.webp'], note: ILL },
 
-    { slug: 'haier-otkrytie-magazina', priority: 26, client: 'Haier', logo: L + 'Haier_black_1600.png',
+    { slug: 'haier-otkrytie-magazina', priority: 26, client: 'Haier', logo: L + 'Haier_black_1600.webp',
       format: 'Открытие фирменного магазина', title: 'Новая точка притяжения',
       lead: 'Церемония перерезания ленты, welcome-кейтеринг, ведущий, оформление и фото- и видеосопровождение.',
       place: 'Москва', formats: ['opening'], industries: ['ind'],
