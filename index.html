@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>body{margin:0;background:#FFFFFF;-webkit-font-smoothing:antialiased}a{color:#111214;text-decoration:none}a:hover{color:#008CB3}*{box-sizing:border-box}button{font-family:inherit}input{font-family:inherit}:focus-visible{outline:3px solid #008CB3;outline-offset:2px}</style>
+<script src="portfolio-data.js"></script>
+<meta name="ext-resource-dependency" content="r100__party_hero.webp">
+<meta name="ext-resource-dependency" content="r100__party_hall.webp">
+<meta name="ext-resource-dependency" content="r100__party_stage.webp">
+<meta name="ext-resource-dependency" content="r100__party_crowd.webp">
+<meta name="ext-resource-dependency" content="r100__party_cake.webp">
+<meta name="ext-resource-dependency" content="r100__party_selfie.webp">
+<meta name="ext-resource-dependency" content="r100__party_bands.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_recordati.webp">
+<meta name="ext-resource-dependency" content="pkg__album_recordati_1.webp">
+<meta name="ext-resource-dependency" content="pkg__album_recordati_2.webp">
+<meta name="ext-resource-dependency" content="v6__S42_01_RECORDATI_GALA.webp">
+<meta name="ext-resource-dependency" content="opt__photos__25_Alfa_Kamchatka__01_hero.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__src__original_11_0.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__src__original_11_1.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__src__original_11_2.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__src__original_12_0.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__src__original_12_1.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__src__original_12_2.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__src__original_12_3.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__src__original_12_4.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__src__original_12_5.webp">
+<meta name="ext-resource-dependency" content="v6__VSK_61_HERO_3T5A3302.webp">
+<meta name="ext-resource-dependency" content="v6__VSK_63_01_INTERACTIVE_3T5A3271.webp">
+<meta name="ext-resource-dependency" content="v6__VSK_63_02_SHOW_3T5A2850.webp">
+<meta name="ext-resource-dependency" content="v6__VSK_63_03_ARTIST_3T5A2976.webp">
+<meta name="ext-resource-dependency" content="v6__VSK_63_04_AWARDS_3T5A3535.webp">
+<meta name="ext-resource-dependency" content="v6__VSK_63_05_DECOR_IMG_0794.webp">
+<meta name="ext-resource-dependency" content="v6__VSK_63_06_GUESTS_IMG_1923.webp">
+<meta name="ext-resource-dependency" content="r100__s096_xref730.webp">
+<meta name="ext-resource-dependency" content="r100__s96_audience.webp">
+<meta name="ext-resource-dependency" content="r100__s96_lake_panorama.webp">
+<meta name="ext-resource-dependency" content="r100__s96_singers.webp">
+<meta name="ext-resource-dependency" content="r100__s96_lawn.webp">
+<meta name="ext-resource-dependency" content="r100__s094_xref719.webp">
+<meta name="ext-resource-dependency" content="photos__23_Kortros_Builders__p07w.webp">
+<meta name="ext-resource-dependency" content="photos__23_Kortros_Builders__p08w.webp">
+<meta name="ext-resource-dependency" content="photos__01_TBank_Nizhny__hero.webp">
+<meta name="ext-resource-dependency" content="photos__01_TBank_Nizhny__p01w.webp">
+<meta name="ext-resource-dependency" content="r100__s006_xref107.webp">
+<meta name="ext-resource-dependency" content="photos__01_TBank_Nizhny__p06w.webp">
+<meta name="ext-resource-dependency" content="photos__01_TBank_Nizhny__p03w.webp">
+<meta name="ext-resource-dependency" content="photos__01_TBank_Nizhny__p04w.webp">
+<meta name="ext-resource-dependency" content="photos__01_TBank_Nizhny__p05w.webp">
+<meta name="ext-resource-dependency" content="kit__o__s05_conference.webp">
+<meta name="ext-resource-dependency" content="kit__o__s05_group.webp">
+<meta name="ext-resource-dependency" content="photos__16_Haier_Cruise__hero.webp">
+<meta name="ext-resource-dependency" content="photos__16_Haier_Cruise__p01w.webp">
+<meta name="ext-resource-dependency" content="photos__16_Haier_Cruise__p02w.webp">
+<meta name="ext-resource-dependency" content="photos__16_Haier_Cruise__p03w.webp">
+<meta name="ext-resource-dependency" content="photos__16_Haier_Cruise__p04w.webp">
+<meta name="ext-resource-dependency" content="photos__16_Haier_Cruise__p05w.webp">
+<meta name="ext-resource-dependency" content="photos__16_Haier_Cruise__p06w.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_school.webp">
+<meta name="ext-resource-dependency" content="pkg__src__original_51_0.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__src__original_51_1.webp">
+<meta name="ext-resource-dependency" content="pkg__src__original_51_2.webp">
+<meta name="ext-resource-dependency" content="pkg__src__original_51_3.webp">
+<meta name="ext-resource-dependency" content="pkg__src__original_51_4.webp">
+<meta name="ext-resource-dependency" content="pkg__src__original_hero_50.webp">
+<meta name="ext-resource-dependency" content="r100__s67_family_confetti.webp">
+<meta name="ext-resource-dependency" content="r100__s67_interaction_adults.webp">
+<meta name="ext-resource-dependency" content="kit__p__ny_hall.webp">
+<meta name="ext-resource-dependency" content="r100__s69_nutcracker_stage.webp">
+<meta name="ext-resource-dependency" content="r100__s69_alfa_hosts.webp">
+<meta name="ext-resource-dependency" content="r100__s69_pianist.webp">
+<meta name="ext-resource-dependency" content="photos__15_Alfa_NewYear__p05w.webp">
+<meta name="ext-resource-dependency" content="kit__p__ny_nutcracker.jpg">
+<meta name="ext-resource-dependency" content="kit__p__ny_decor_a.webp">
+<meta name="ext-resource-dependency" content="pkg__album_surf_1.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_surf.webp">
+<meta name="ext-resource-dependency" content="kit__r__s39_02_baltic_surfgear.webp">
+<meta name="ext-resource-dependency" content="v6__S39_01_TBANK_SURF_CAMP.webp">
+<meta name="ext-resource-dependency" content="kit__old__seoul_4.jpeg">
+<meta name="ext-resource-dependency" content="r100__s54_left_street_upscale.webp">
+<meta name="ext-resource-dependency" content="r100__s54_topright_dinner_upscale.webp">
+<meta name="ext-resource-dependency" content="r100__s54_bottomright_robot_upscale.webp">
+<meta name="ext-resource-dependency" content="photos__19_Alfa_Stand__hero.webp">
+<meta name="ext-resource-dependency" content="kit__p__stand_01_whole_diagonal.webp">
+<meta name="ext-resource-dependency" content="kit__p__stand_02_interactive_wheel.webp">
+<meta name="ext-resource-dependency" content="kit__p__stand_03_merch_area.webp">
+<meta name="ext-resource-dependency" content="photos__19_Alfa_Stand__p04w.webp">
+<meta name="ext-resource-dependency" content="r100__s84_bottom_merch.webp">
+<meta name="ext-resource-dependency" content="r100__s84_bottom_visitors.webp">
+<meta name="ext-resource-dependency" content="photos__17_OTLK_NewYear__hero.webp">
+<meta name="ext-resource-dependency" content="photos__17_OTLK_NewYear__p01w.webp">
+<meta name="ext-resource-dependency" content="photos__17_OTLK_NewYear__p02w.webp">
+<meta name="ext-resource-dependency" content="photos__17_OTLK_NewYear__p03w.webp">
+<meta name="ext-resource-dependency" content="photos__17_OTLK_NewYear__p04w.webp">
+<meta name="ext-resource-dependency" content="photos__17_OTLK_NewYear__p05w.webp">
+<meta name="ext-resource-dependency" content="kit__old__sber_3.jpeg">
+<meta name="ext-resource-dependency" content="kit__old__sber_4.jpeg">
+<meta name="ext-resource-dependency" content="kit__old__sber_2.jpeg">
+<meta name="ext-resource-dependency" content="kit__old__sber_1.webp">
+<meta name="ext-resource-dependency" content="kit__old__sber_5.jpeg">
+<meta name="ext-resource-dependency" content="photos__18_Alfa_Breakfast__hero.webp">
+<meta name="ext-resource-dependency" content="photos__18_Alfa_Breakfast__p01w.webp">
+<meta name="ext-resource-dependency" content="photos__18_Alfa_Breakfast__p02w.webp">
+<meta name="ext-resource-dependency" content="photos__18_Alfa_Breakfast__p04w.webp">
+<meta name="ext-resource-dependency" content="photos__18_Alfa_Breakfast__p03w.webp">
+<meta name="ext-resource-dependency" content="photos__18_Alfa_Breakfast__p05w.webp">
+<meta name="ext-resource-dependency" content="photos__18_Alfa_Breakfast__p06w.webp">
+<meta name="ext-resource-dependency" content="r100__s49_qatar_upscale.webp">
+<meta name="ext-resource-dependency" content="kit__old__qa_2.webp">
+<meta name="ext-resource-dependency" content="kit__old__qa_3.jpeg">
+<meta name="ext-resource-dependency" content="pkg__src__p07_0.webp">
+<meta name="ext-resource-dependency" content="v6__S08_01_ALFA_WELCOME.webp">
+<meta name="ext-resource-dependency" content="v6__S08_02_ALFA_SESSION.webp">
+<meta name="ext-resource-dependency" content="r100__s09_arkhyz_decor.webp">
+<meta name="ext-resource-dependency" content="photos__02_Alfa_Arkhyz__p01w.webp">
+<meta name="ext-resource-dependency" content="kit__o__s09_screen_logo.webp">
+<meta name="ext-resource-dependency" content="photos__02_Alfa_Arkhyz__p04w.webp">
+<meta name="ext-resource-dependency" content="photos__02_Alfa_Arkhyz__p05w.webp">
+<meta name="ext-resource-dependency" content="kit__o__s08_backpack.webp">
+<meta name="ext-resource-dependency" content="photos__20_Gazprombank_Office__v2__01_icecream_event.webp">
+<meta name="ext-resource-dependency" content="photos__20_Gazprombank_Office__v2__05_karaoke_office.webp">
+<meta name="ext-resource-dependency" content="photos__20_Gazprombank_Office__v2__02_icecream_detail.webp">
+<meta name="ext-resource-dependency" content="photos__20_Gazprombank_Office__v2__03_cotton_candy.webp">
+<meta name="ext-resource-dependency" content="photos__20_Gazprombank_Office__v2__06_colleagues_planets.webp">
+<meta name="ext-resource-dependency" content="photos__20_Gazprombank_Office__v2__04_cookie_gifts.webp">
+<meta name="ext-resource-dependency" content="r100__s66_left_show_upscale.webp">
+<meta name="ext-resource-dependency" content="r100__s064_xref520.webp">
+<meta name="ext-resource-dependency" content="r100__s66_topright_hall_upscale.webp">
+<meta name="ext-resource-dependency" content="r100__s66_bottomright_service_upscale.webp">
+<meta name="ext-resource-dependency" content="opt__pkg__hero_tent.webp">
+<meta name="ext-resource-dependency" content="pkg__src__tent_ref_1.jpg">
+<meta name="ext-resource-dependency" content="pkg__album_tent_1.webp">
+<meta name="ext-resource-dependency" content="pkg__album_tent_3.webp">
+<meta name="ext-resource-dependency" content="r100__ado_hero.webp">
+<meta name="ext-resource-dependency" content="kit__old__ado_5.webp">
+<meta name="ext-resource-dependency" content="kit__old__ado_3.jpeg">
+<meta name="ext-resource-dependency" content="kit__old__ado_4.jpeg">
+<meta name="ext-resource-dependency" content="kit__old__ado_1.jpeg">
+<meta name="ext-resource-dependency" content="kit__old__ado_2.jpeg">
+<meta name="ext-resource-dependency" content="kit__old__ado_6.jpeg">
+<meta name="ext-resource-dependency" content="r100__s033_xref352.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_technonicol.webp">
+<meta name="ext-resource-dependency" content="v6__S33_02_TECHNONICOL_LEOPARD.webp">
+<meta name="ext-resource-dependency" content="v6__S33_01_TECHNONICOL_ATV.webp">
+<meta name="ext-resource-dependency" content="kit__old__mc_3.webp">
+<meta name="ext-resource-dependency" content="r100__s48_left_office_upscale.webp">
+<meta name="ext-resource-dependency" content="r100__s48_topright_bar_upscale.webp">
+<meta name="ext-resource-dependency" content="r100__s48_bottomright_yacht_upscale.webp">
+<meta name="ext-resource-dependency" content="kit__old__hk_2.jpeg">
+<meta name="ext-resource-dependency" content="r100__s45_left_hongkong_street.webp">
+<meta name="ext-resource-dependency" content="v6__S45_01_HONGKONG_SERVICE.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_altai.webp">
+<meta name="ext-resource-dependency" content="pkg__album_altai_1.webp">
+<meta name="ext-resource-dependency" content="r100__s18_center_cooking.webp">
+<meta name="ext-resource-dependency" content="v6__S18_01_ALTAI_CATERING.webp">
+<meta name="ext-resource-dependency" content="pkg__album_almaty_1.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_almaty.webp">
+<meta name="ext-resource-dependency" content="kit__r__s36_02_almaty_mountains.webp">
+<meta name="ext-resource-dependency" content="pkg__album_almaty_3.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_sailing.webp">
+<meta name="ext-resource-dependency" content="kit__r__s15_01_regatta.webp">
+<meta name="ext-resource-dependency" content="kit__r__s15_02_kayakoy.webp">
+<meta name="ext-resource-dependency" content="kit__r__s15_03_gobun_lunch.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_phuket.webp">
+<meta name="ext-resource-dependency" content="v6__S27_02_NOAH_CATAMARAN.webp">
+<meta name="ext-resource-dependency" content="v6__S27_01_PHUKET_DINNER.webp">
+<meta name="ext-resource-dependency" content="v6__S27_03_NOAH_BAR.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_baku.webp">
+<meta name="ext-resource-dependency" content="pkg__album_baku_1.webp">
+<meta name="ext-resource-dependency" content="pkg__album_baku_2.webp">
+<meta name="ext-resource-dependency" content="pkg__album_baku_3.webp">
+<meta name="ext-resource-dependency" content="kit__o__s28_people.webp">
+<meta name="ext-resource-dependency" content="kit__r__s30_01_shanghai_river.webp">
+<meta name="ext-resource-dependency" content="kit__r__s30_02_shanghai_gala.webp">
+<meta name="ext-resource-dependency" content="v6__S30_01_SHANGHAI_BAR.webp">
+<meta name="ext-resource-dependency" content="pkg__album_qingdao_1.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_qingdao.webp">
+<meta name="ext-resource-dependency" content="v6__S21_01_HAIER_GALA.webp">
+<meta name="ext-resource-dependency" content="v6__S21_02_HAIER_SERVICE.webp">
+<meta name="ext-resource-dependency" content="pkg__hero_retail.webp">
+<meta name="ext-resource-dependency" content="pkg__album_retail_1.webp">
+<meta name="ext-resource-dependency" content="pkg__album_retail_2.webp">
+<meta name="ext-resource-dependency" content="pkg__album_retail_3.webp">
+</helmet>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#008CB3"></rect><text x="50" y="62" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">НВ</text></svg></template>
+<div style="font-family:'Montserrat',sans-serif;color:#111214;min-height:100vh;background:#FFFFFF">
+
+<sc-if value="{{ phoneFrame }}" hint-placeholder-val="{{ false }}">
+  <div style="min-height:100vh;background:#E9EDF0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:32px 16px 96px">
+    <div style="width:390px;height:844px;border-radius:48px;border:10px solid #111214;overflow:hidden;background:#FFFFFF;box-shadow:0 30px 80px rgba(17,18,20,.18)">
+      <iframe src="{{ frameSrc }}" title="Мобильная версия" style="width:100%;height:100%;border:0;display:block"></iframe>
+    </div>
+    <div style="font-size:14px;color:#5E6166">Мобильная версия · 390 px · касание миниатюры переключает фото</div>
+  </div>
+</sc-if>
+
+<sc-if value="{{ page }}" hint-placeholder-val="{{ true }}">
+<header style="position:sticky;top:0;z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid #EEF0F2">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(16px,4vw,48px);height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px">
+    <a href="#/portfolio" aria-label="На волне — на главную" style="display:flex;align-items:center"><img src="navolne-logo.svg" alt="На волне" style="height:20px;display:block"></a>
+    <sc-if value="{{ desktop }}" hint-placeholder-val="{{ true }}">
+      <nav style="display:flex;gap:32px;font-size:17px;font-weight:500">
+        <a href="https://www.navolne.agency/#services">услуги</a>
+        <a href="#/portfolio" style="color:#008CB3">портфолио</a>
+        <a href="https://www.navolne.agency/blog">блог</a>
+        <a href="https://www.navolne.agency/o-nas">команда</a>
+        <a href="#contacts">контакты</a>
+      </nav>
+      <a href="#contacts" style="padding:11px 24px;border:1.5px solid #111214;border-radius:999px;font-size:16px;font-weight:600" style-hover="background:#111214;color:#FFFFFF">связаться</a>
+    </sc-if>
+    <sc-if value="{{ mobile }}" hint-placeholder-val="{{ false }}">
+      <button onClick="{{ toggleMenu }}" aria-label="Меню" aria-expanded="{{ menuOpen }}" style="width:44px;height:44px;border:0;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;cursor:pointer;padding:0">
+        <span style="width:24px;height:2px;background:#111214;display:block"></span><span style="width:24px;height:2px;background:#111214;display:block"></span>
+      </button>
+    </sc-if>
+  </div>
+  <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+    <nav style="display:flex;flex-direction:column;padding:8px 16px 24px;font-size:22px;font-weight:600;gap:4px;border-top:1px solid #EEF0F2">
+      <a href="https://www.navolne.agency/#services" style="padding:10px 0">услуги</a>
+      <a href="#/portfolio" onClick="{{ toggleMenu }}" style="padding:10px 0;color:#008CB3">портфолио</a>
+      <a href="https://www.navolne.agency/blog" style="padding:10px 0">блог</a>
+      <a href="https://www.navolne.agency/o-nas" style="padding:10px 0">команда</a>
+      <a href="#contacts" onClick="{{ toggleMenu }}" style="padding:10px 0">контакты</a>
+    </nav>
+  </sc-if>
+</header>
+
+<main style="max-width:1440px;margin:0 auto;padding:0 clamp(16px,4vw,48px)">
+
+<sc-if value="{{ isCatalog }}" hint-placeholder-val="{{ true }}">
+  <section data-screen-label="Каталог" style="padding:clamp(24px,4vw,48px) 0 0">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 32px;margin-bottom:24px">
+      <h1 style="margin:0;font-size:clamp(40px,6vw,72px);font-weight:800;letter-spacing:-0.045em;line-height:0.95">портфолио</h1>
+      <p style="margin:0;font-size:17px;line-height:1.45;color:#5E6166;max-width:520px;text-wrap:pretty">{{ introText }}</p>
+    </div>
+
+    <sc-if value="{{ mBar }}" hint-placeholder-val="{{ false }}">
+      <div style="position:sticky;top:72px;z-index:30;margin:0 -16px;padding:10px 16px;background:rgba(255,255,255,.97);border-bottom:1px solid #EEF0F2;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none">
+        <sc-for list="{{ mButtons }}" as="mb" hint-placeholder-count="2">
+          <button onClick="{{ mb.on }}" style="flex:{{ mb.flex }};display:flex;align-items:center;justify-content:center;gap:8px;height:48px;padding:0 18px;border-radius:999px;border:1.5px solid {{ mb.border }};background:{{ mb.bg }};color:{{ mb.ink }};font-size:15px;font-weight:600;white-space:nowrap;cursor:pointer">
+            <span>{{ mb.label }}</span>
+            <sc-if value="{{ mb.hasBadge }}" hint-placeholder-val="{{ false }}"><span style="min-width:22px;height:22px;padding:0 6px;border-radius:11px;background:{{ mb.badgeBg }};color:{{ mb.badgeInk }};font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center">{{ mb.badge }}</span></sc-if>
+            <sc-if value="{{ mb.caret }}" hint-placeholder-val="{{ false }}"><span aria-hidden="true" style="font-size:11px">▾</span></sc-if>
+          </button>
+        </sc-for>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ sheetOpen }}" hint-placeholder-val="{{ false }}">
+      <div onClick="{{ closeSheet }}" style="position:fixed;inset:0;z-index:150;background:rgba(17,18,20,.45)"></div>
+      <div role="dialog" aria-modal="true" aria-label="Фильтры" style="position:fixed;left:0;right:0;bottom:0;z-index:151;max-height:86vh;background:#FFFFFF;border-radius:24px 24px 0 0;display:flex;flex-direction:column;box-shadow:0 -10px 40px rgba(17,18,20,.2)">
+        <div style="display:flex;justify-content:center;padding:10px 0 0"><span style="width:40px;height:4px;border-radius:2px;background:#D5D9DE"></span></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:8px 8px 8px 20px">
+          <div style="font-size:20px;font-weight:700">{{ sheetTitle }}</div>
+          <button onClick="{{ closeSheet }}" aria-label="Закрыть" style="width:48px;height:48px;border:0;background:transparent;font-size:26px;cursor:pointer;color:#111214">×</button>
+        </div>
+        <div style="overflow-y:auto;padding:0 20px 12px;display:flex;flex-direction:column;gap:20px">
+          <sc-for list="{{ sheetGroups }}" as="sg" hint-placeholder-count="2">
+            <div style="display:flex;flex-direction:column">
+              <sc-if value="{{ sg.showTitle }}" hint-placeholder-val="{{ true }}"><div style="font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#5E6166;padding:4px 0 6px">{{ sg.title }}</div></sc-if>
+              <sc-for list="{{ sg.tags }}" as="t" hint-placeholder-count="6">
+                <button onClick="{{ t.toggle }}" aria-pressed="{{ t.checked }}" disabled="{{ t.disabled }}" style="display:flex;align-items:center;gap:14px;min-height:52px;padding:0;border:0;border-bottom:1px solid #EEF0F2;background:transparent;text-align:left;font-size:16px;color:{{ t.ink }};cursor:{{ t.cursor }}">
+                  <span style="width:24px;height:24px;flex:none;border-radius:7px;border:1.5px solid {{ t.box }};background:{{ t.boxBg }};color:#FFFFFF;font-size:14px;font-weight:800;display:flex;align-items:center;justify-content:center">{{ t.mark }}</span>
+                  <span style="flex:1">{{ t.label }}</span>
+                </button>
+              </sc-for>
+            </div>
+          </sc-for>
+        </div>
+        <div style="display:flex;gap:10px;padding:12px 20px 20px;border-top:1px solid #EEF0F2">
+          <button onClick="{{ sheetReset }}" style="flex:none;height:52px;padding:0 20px;border-radius:999px;border:1.5px solid #D5D9DE;background:#FFFFFF;font-size:15px;font-weight:600;color:#111214;cursor:pointer">Сбросить</button>
+          <button onClick="{{ closeSheet }}" style="flex:1;height:52px;border-radius:999px;border:0;background:#008CB3;color:#FFFFFF;font-size:16px;font-weight:700;cursor:pointer">{{ sheetCta }}</button>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ tagsInline }}" hint-placeholder-val="{{ true }}">
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <sc-for list="{{ tagGroups }}" as="tg" hint-placeholder-count="2">
+        <div role="group" aria-label="{{ tg.title }}" style="display:grid;grid-template-columns:{{ tagCols }};gap:8px 24px;align-items:start;min-width:0">
+          <div style="font-size:14px;font-weight:600;color:#5E6166;padding-top:10px;text-transform:lowercase">{{ tg.title }}</div>
+          <div style="display:flex;flex-wrap:{{ tagWrap }};gap:8px;overflow-x:auto;min-width:0;padding-bottom:2px;scrollbar-width:none">
+            <sc-for list="{{ tg.tags }}" as="t" hint-placeholder-count="8">
+              <button onClick="{{ t.toggle }}" aria-pressed="{{ t.checked }}" disabled="{{ t.disabled }}" style="flex:none;display:flex;align-items:center;gap:8px;height:40px;padding:0 16px;border-radius:999px;border:1.5px solid {{ t.border }};background:{{ t.bg }};color:{{ t.ink }};font-size:14px;font-weight:500;cursor:{{ t.cursor }};white-space:nowrap;transition:background 120ms,border-color 120ms" style-hover="border-color:#008CB3">
+                <span>{{ t.label }}</span>
+              </button>
+            </sc-for>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+    </sc-if>
+
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;min-height:40px;margin:16px 0 28px">
+      <span aria-live="polite" style="font-size:15px;font-weight:600;color:#111214;margin-right:6px">{{ resultText }}</span>
+      <sc-for list="{{ chips }}" as="ch" hint-placeholder-count="0">
+        <button onClick="{{ ch.remove }}" aria-label="Убрать фильтр {{ ch.label }}" style="display:flex;align-items:center;gap:8px;border:0;border-radius:999px;background:#E5F4F8;color:#00607A;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer" style-hover="background:#D2ECF3">{{ ch.label }}<span aria-hidden="true" style="font-size:16px;line-height:1">×</span></button>
+      </sc-for>
+      <sc-if value="{{ hasChips }}" hint-placeholder-val="{{ false }}">
+        <button onClick="{{ reset }}" style="border:0;background:transparent;color:#5E6166;font-size:14px;font-weight:600;text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:8px 4px">Сбросить всё</button>
+      </sc-if>
+    </div>
+
+    <sc-if value="{{ empty }}" hint-placeholder-val="{{ false }}">
+      <div style="padding:72px 24px;border-radius:28px;background:#F3F5F7;text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px;margin-bottom:96px">
+        <div style="font-size:28px;font-weight:700;letter-spacing:-0.02em">Ничего не найдено</div>
+        <div style="font-size:17px;color:#5E6166;max-width:420px;line-height:1.5">Попробуйте убрать часть фильтров или изменить запрос.</div>
+        <button onClick="{{ reset }}" style="margin-top:8px;border:0;background:#008CB3;color:#FFFFFF;border-radius:999px;padding:14px 26px;font-size:16px;font-weight:600;cursor:pointer">Показать все проекты</button>
+      </div>
+    </sc-if>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,540px),1fr));gap:64px 32px;padding-bottom:112px">
+      <sc-for list="{{ cards }}" as="c" hint-placeholder-count="4">
+        <article onMouseLeave="{{ c.leave }}" onBlur="{{ c.blur }}" style="display:flex;flex-direction:column;gap:20px;min-width:0">
+          <div style="display:grid;grid-template-columns:{{ mediaCols }};gap:8px">
+            <a href="{{ c.href }}" onClick="{{ c.go }}" aria-label="{{ c.ariaOpen }}" style="position:relative;display:block;aspect-ratio:4 / 3;border-radius:20px;overflow:hidden;background:#EEF1F4">
+              <sc-for list="{{ c.layers }}" as="l" hint-placeholder-count="1">
+                <img src="{{ l.src }}" alt="" loading="lazy" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%;opacity:{{ l.op }};transition:opacity 120ms linear;display:block">
+              </sc-for>
+            </a>
+            <sc-if value="{{ c.hasThumbs }}" hint-placeholder-val="{{ true }}">
+              <div style="display:flex;flex-direction:{{ stripDir }};gap:8px;min-height:0">
+                <sc-for list="{{ c.thumbs }}" as="t" hint-placeholder-count="4">
+                  <button onMouseEnter="{{ t.on }}" onFocus="{{ t.on }}" onClick="{{ t.click }}" aria-label="{{ t.aria }}" aria-pressed="{{ t.active }}" style="position:relative;flex:0 0 calc((100% - 24px) / 4);aspect-ratio:{{ thumbAspect }};min-height:0;padding:0;border:0;border-radius:12px;overflow:hidden;cursor:pointer;background:#EEF1F4;box-shadow:{{ t.ring }}">
+                    <img src="{{ t.src }}" alt="" loading="lazy" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block">
+                    <sc-if value="{{ t.more }}" hint-placeholder-val="{{ false }}">
+                      <span style="position:absolute;inset:0;background:rgba(17,18,20,.58);color:#FFFFFF;font-size:13px;font-weight:700;line-height:1.15;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px">{{ t.moreText }}</span>
+                    </sc-if>
+                  </button>
+                </sc-for>
+              </div>
+            </sc-if>
+          </div>
+          <a href="{{ c.href }}" onClick="{{ c.go }}" style="display:flex;flex-direction:column;gap:12px;color:#111214">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:30px">
+              <div style="display:flex;align-items:center;gap:12px;min-width:0">
+                <sc-for list="{{ c.logos }}" as="lg" hint-placeholder-count="1">
+                  <img src="{{ lg.src }}" alt="{{ lg.alt }}" style="height:26px;max-width:150px;object-fit:contain;object-position:left center;display:block">
+                </sc-for>
+                <sc-if value="{{ c.noLogo }}" hint-placeholder-val="{{ false }}">
+                  <span style="font-size:15px;font-weight:700;letter-spacing:.04em;text-transform:uppercase">{{ c.client }}</span>
+                </sc-if>
+              </div>
+              <sc-if value="{{ cardMeta }}" hint-placeholder-val="{{ true }}"><span style="font-size:13px;color:#5E6166;white-space:nowrap">{{ c.ind }}</span></sc-if>
+            </div>
+            <h2 style="margin:0;font-size:clamp(22px,2.2vw,28px);font-weight:700;letter-spacing:-0.025em;line-height:1.15;text-wrap:pretty">{{ c.format }}</h2>
+            <p style="margin:0;font-size:17px;line-height:1.5;color:#3E4247;text-wrap:pretty">{{ c.lead }}</p>
+          </a>
+          <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;margin-top:-4px">
+            <div style="display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px;color:#5E6166;align-items:center">
+              <sc-if value="{{ c.hasMetric }}" hint-placeholder-val="{{ false }}"><span style="font-weight:700;color:#008CB3">{{ c.metric }}</span></sc-if>
+              <span>{{ c.place }}</span>
+              <span>{{ c.tags }}</span>
+            </div>
+            <a href="{{ c.href }}" onClick="{{ c.go }}" style="font-size:15px;font-weight:700;color:#FFFFFF;background:#008CB3;border-radius:999px;padding:13px 24px;min-height:48px;display:flex;align-items:center;gap:8px;white-space:nowrap;transition:background 120ms" style-hover="background:#00708F;color:#FFFFFF">Смотреть кейс <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </sc-for>
+    </div>
+  </section>
+</sc-if>
+
+<sc-if value="{{ isCase }}" hint-placeholder-val="{{ false }}">
+  <article data-screen-label="Кейс" style="padding:20px 0 0">
+    <a href="{{ backHref }}" style="display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:600;color:#5E6166;padding:10px 0;margin-bottom:8px" style-hover="color:#008CB3"><span aria-hidden="true">←</span> Все кейсы</a>
+    <button onClick="{{ openHero }}" aria-label="Открыть фото крупно" style="display:block;width:100%;padding:0;border:0;cursor:zoom-in;aspect-ratio:{{ heroAspect }};border-radius:28px;overflow:hidden;background:#EEF1F4">
+      <img src="{{ cc.hero }}" alt="{{ cc.title }}" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block">
+    </button>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:40px 64px;padding:44px 0 56px;border-bottom:1px solid #E4E7EA">
+      <div style="display:flex;flex-direction:column;gap:18px;grid-column:span {{ leadSpan }}">
+        <div style="display:flex;align-items:center;gap:14px;min-height:32px">
+          <sc-for list="{{ cc.logos }}" as="lg" hint-placeholder-count="1"><img src="{{ lg.src }}" alt="{{ lg.alt }}" style="height:30px;max-width:180px;object-fit:contain;object-position:left center;display:block"></sc-for>
+          <sc-if value="{{ cc.noLogo }}" hint-placeholder-val="{{ false }}"><span style="font-size:16px;font-weight:700;letter-spacing:.06em;text-transform:uppercase">{{ cc.client }}</span></sc-if>
+        </div>
+        <h1 style="margin:0;font-size:clamp(38px,5.4vw,76px);font-weight:800;letter-spacing:-0.045em;line-height:0.98;text-wrap:balance">{{ cc.title }}</h1>
+        <p style="margin:0;font-size:clamp(20px,1.8vw,24px);font-weight:600;line-height:1.3;letter-spacing:-0.01em;text-wrap:pretty">{{ cc.format }}</p>
+        <p style="margin:0;font-size:18px;line-height:1.55;color:#3E4247;max-width:680px;text-wrap:pretty">{{ cc.lead }}</p>
+      </div>
+      <dl style="margin:0;display:grid;grid-template-columns:auto 1fr;gap:14px 24px;font-size:16px;line-height:1.4;align-content:start;padding:24px;border-radius:24px;background:#F3F5F7">
+        <dt style="color:#5E6166">Заказчик</dt><dd style="margin:0;font-weight:600">{{ cc.client }}</dd>
+        <dt style="color:#5E6166">Формат</dt><dd style="margin:0;font-weight:600">{{ cc.formatTags }}</dd>
+        <dt style="color:#5E6166">Отрасль</dt><dd style="margin:0;font-weight:600">{{ cc.industryTags }}</dd>
+        <dt style="color:#5E6166">Место</dt><dd style="margin:0;font-weight:600">{{ cc.place }}</dd>
+      </dl>
+    </div>
+
+    <sc-if value="{{ cc.hasFacts }}" hint-placeholder-val="{{ false }}">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;padding:40px 0;border-bottom:1px solid #E4E7EA">
+        <sc-for list="{{ cc.facts }}" as="f" hint-placeholder-count="2">
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <div style="font-size:clamp(32px,3.4vw,48px);font-weight:800;letter-spacing:-0.04em;line-height:1;color:#008CB3">{{ f.v }}</div>
+            <div style="font-size:16px;color:#3E4247;line-height:1.4">{{ f.l }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </sc-if>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:32px 64px;padding:56px 0">
+      <section style="display:flex;flex-direction:column;gap:14px">
+        <h2 style="margin:0;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#5E6166">Задача</h2>
+        <p style="margin:0;font-size:22px;font-weight:600;line-height:1.4;letter-spacing:-0.01em;text-wrap:pretty">{{ cc.task }}</p>
+      </section>
+      <section style="display:flex;flex-direction:column;gap:14px">
+        <h2 style="margin:0;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#5E6166">Решение</h2>
+        <p style="margin:0;font-size:18px;line-height:1.6;color:#3E4247;text-wrap:pretty">{{ cc.about }}</p>
+        <sc-if value="{{ cc.hasExtra }}" hint-placeholder-val="{{ false }}"><p style="margin:0;font-size:16px;line-height:1.6;color:#5E6166;text-wrap:pretty">{{ cc.extra }}</p></sc-if>
+      </section>
+    </div>
+
+    <section style="padding:0 0 64px">
+      <h2 style="margin:0 0 24px;font-size:clamp(26px,2.6vw,36px);font-weight:800;letter-spacing:-0.03em">Что мы сделали</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:16px">
+        <sc-for list="{{ cc.scope }}" as="s" hint-placeholder-count="4">
+          <div style="display:flex;flex-direction:column;gap:10px;padding:24px;border-radius:22px;border:1px solid #E4E7EA">
+            <div style="font-size:14px;font-weight:800;color:#008CB3;letter-spacing:.04em">{{ s.n }}</div>
+            <div style="font-size:19px;font-weight:700;letter-spacing:-0.01em;line-height:1.25">{{ s.t }}</div>
+            <div style="font-size:16px;line-height:1.5;color:#3E4247;text-wrap:pretty">{{ s.d }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <sc-if value="{{ cc.hasResults }}" hint-placeholder-val="{{ false }}">
+      <section style="padding:0 0 64px">
+        <h2 style="margin:0 0 24px;font-size:clamp(26px,2.6vw,36px);font-weight:800;letter-spacing:-0.03em">Результат</h2>
+        <sc-for list="{{ cc.results }}" as="r" hint-placeholder-count="1">
+          <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;padding:28px;border-radius:22px;background:#E5F4F8">
+            <span style="font-size:clamp(36px,4vw,56px);font-weight:800;letter-spacing:-0.04em;color:#00607A;line-height:1">{{ r.v }}</span>
+            <span style="font-size:18px;color:#00607A">{{ r.l }}</span>
+          </div>
+        </sc-for>
+      </section>
+    </sc-if>
+
+    <section style="padding:0 0 72px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin:0 0 24px;flex-wrap:wrap">
+        <h2 style="margin:0;font-size:clamp(26px,2.6vw,36px);font-weight:800;letter-spacing:-0.03em">Фотографии</h2>
+        <span style="font-size:15px;color:#5E6166">{{ cc.photoCount }}</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));grid-auto-flow:dense;gap:12px">
+        <sc-for list="{{ cc.gallery }}" as="g" hint-placeholder-count="6">
+          <button onClick="{{ g.open }}" aria-label="{{ g.aria }}" style="grid-column:span {{ g.span }};grid-row:span {{ g.span }};padding:0;border:0;border-radius:18px;overflow:hidden;cursor:zoom-in;background:#EEF1F4;aspect-ratio:4 / 3;position:relative">
+            <img src="{{ g.src }}" alt="" loading="lazy" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;transition:transform 300ms ease" style-hover="transform:scale(1.02)">
+          </button>
+        </sc-for>
+      </div>
+      <sc-if value="{{ cc.hasNote }}" hint-placeholder-val="{{ false }}"><p style="margin:14px 0 0;font-size:14px;color:#8A8F96">{{ cc.note }}</p></sc-if>
+    </section>
+
+    <section style="margin:0 0 72px;padding:clamp(28px,4vw,56px);border-radius:32px;background:#008CB3;color:#FFFFFF;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px">
+      <div style="display:flex;flex-direction:column;gap:10px;max-width:640px">
+        <div style="font-size:clamp(30px,3.6vw,52px);font-weight:800;letter-spacing:-0.04em;line-height:1">Сделаем, как вы мечтали</div>
+        <div style="font-size:18px;line-height:1.5">Расскажите о задаче — предложим формат, программу и площадку.</div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px">
+        <a href="mailto:go@navolne.agency" style="background:#FFFFFF;color:#00607A;border-radius:999px;padding:18px 30px;font-size:17px;font-weight:700" style-hover="background:#E5F4F8;color:#00607A">Обсудить проект</a>
+        <a href="tel:+74951378575" style="border:1.5px solid #FFFFFF;color:#FFFFFF;border-radius:999px;padding:17px 26px;font-size:17px;font-weight:600" style-hover="background:rgba(255,255,255,.12);color:#FFFFFF">8 495 137-85-75</a>
+      </div>
+    </section>
+
+    <section style="padding:0 0 96px">
+      <h2 style="margin:0 0 24px;font-size:clamp(26px,2.6vw,36px);font-weight:800;letter-spacing:-0.03em">Похожие проекты</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:32px 24px">
+        <sc-for list="{{ similar }}" as="m" hint-placeholder-count="3">
+          <a href="{{ m.href }}" style="display:flex;flex-direction:column;gap:14px;color:#111214">
+            <div style="aspect-ratio:4 / 3;border-radius:18px;overflow:hidden;background:#EEF1F4"><img src="{{ m.src }}" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block"></div>
+            <div style="font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#5E6166">{{ m.client }}</div>
+            <div style="font-size:20px;font-weight:700;letter-spacing:-0.02em;line-height:1.2;margin-top:-6px;text-wrap:pretty">{{ m.format }}</div>
+          </a>
+        </sc-for>
+      </div>
+    </section>
+  </article>
+</sc-if>
+
+<sc-if value="{{ isMissing }}" hint-placeholder-val="{{ false }}">
+  <div style="padding:120px 0;display:flex;flex-direction:column;gap:16px;align-items:flex-start">
+    <h1 style="margin:0;font-size:48px;font-weight:800;letter-spacing:-0.04em">Кейс не найден</h1>
+    <a href="#/portfolio" style="font-size:17px;font-weight:700;color:#008CB3">← Все кейсы</a>
+  </div>
+</sc-if>
+
+<sc-if value="{{ isWebflow }}" hint-placeholder-val="{{ false }}">
+  <article data-screen-label="Webflow" style="padding:48px 0 120px;max-width:1080px;display:flex;flex-direction:column;gap:56px">
+    <header style="display:flex;flex-direction:column;gap:14px">
+      <div style="font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#008CB3">Перенос в Webflow</div>
+      <h1 style="margin:0;font-size:clamp(36px,5vw,64px);font-weight:800;letter-spacing:-0.045em;line-height:1">Структура CMS и сборка</h1>
+      <p style="margin:0;font-size:18px;line-height:1.55;color:#3E4247;max-width:760px">Прототип собран из тех же сущностей, что и будущий сайт: одна коллекция кейсов, два справочника тегов, один шаблон страницы кейса. React здесь только для демонстрации — в Webflow каждая часть собирается штатными элементами.</p>
+    </header>
+
+    <section style="display:flex;flex-direction:column;gap:16px">
+      <h2 style="margin:0;font-size:28px;font-weight:800;letter-spacing:-0.03em">1. Коллекции</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px">
+        <div style="border:1px solid #E4E7EA;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:12px;grid-column:span 2">
+          <div style="font-size:20px;font-weight:800">Кейсы <span style="font-weight:500;color:#5E6166;font-size:15px">· Cases · 32 записи</span></div>
+          <div style="display:grid;grid-template-columns:minmax(150px,auto) 1fr;gap:8px 20px;font-size:15px;line-height:1.45">
+            <b>Name</b><span>Творческое название — «Та самая вечеринка»</span>
+            <b>Slug</b><span>Адрес страницы: /portfolio/krupnyj-bank-rok-festival</span>
+            <b>Client name</b><span>Plain text. Для NDA — обезличенное название</span>
+            <b>Client logo</b><span>Image, необязательное. Пустое → выводится Client name</span>
+            <b>Is NDA</b><span>Switch. Скрывает логотип и ссылки на заказчика</span>
+            <b>Card format line</b><span>Plain text — понятный формат для карточки</span>
+            <b>Card summary</b><span>Plain text, до 160 знаков</span>
+            <b>Place</b><span>Plain text</span>
+            <b>Card metric</b><span>Plain text, необязательное — только подтверждённая цифра</span>
+            <b>Formats</b><span>Multi-reference → Форматы</span>
+            <b>Industries</b><span>Multi-reference → Отрасли</span>
+            <b>Cover</b><span>Image — hero карточки и страницы</span>
+            <b>Thumb 1–4</b><span>4 отдельных Image-поля, необязательные. Пустые скрываются условной видимостью</span>
+            <b>More photos count</b><span>Number — для плашки «Ещё N фото», пустое → плашка скрыта</span>
+            <b>Gallery</b><span>Multi-image (до 25 фото) — полная галерея страницы</span>
+            <b>Task / Solution</b><span>Plain text / Rich text</span>
+            <b>Scope 1–4 title + text</b><span>Пары Plain text; пустые пункты скрываются</span>
+            <b>Facts</b><span>Rich text или пары полей «значение / подпись»</span>
+            <b>Results</b><span>Rich text, необязательное — секция скрыта, если пусто</span>
+            <b>Photo note</b><span>Plain text — пометка об иллюстрациях или архивных снимках</span>
+            <b>Editorial priority</b><span>Number. Сортировка каталога по возрастанию</span>
+            <b>SEO title / description, OG image</b><span>Для шаблона страницы</span>
+          </div>
+        </div>
+        <div style="border:1px solid #E4E7EA;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:10px">
+          <div style="font-size:20px;font-weight:800">Форматы <span style="font-weight:500;color:#5E6166;font-size:15px">· Formats</span></div>
+          <div style="font-size:15px;line-height:1.5;color:#3E4247">Name, Slug, Sort order. 11 значений: конференции и форумы, цикловые совещания, стратегические сессии, деловые выезды, инсентив-поездки, партнёрские встречи, корпоративные праздники, новогодние мероприятия, Family Day, выставки и бренд-зоны, открытия и церемонии.</div>
+        </div>
+        <div style="border:1px solid #E4E7EA;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:10px">
+          <div style="font-size:20px;font-weight:800">Отрасли <span style="font-weight:500;color:#5E6166;font-size:15px">· Industries</span></div>
+          <div style="font-size:15px;line-height:1.5;color:#3E4247">Name, Slug, Sort order. 8 значений: банки и финансы, страхование, фармацевтика, нефть и газ, промышленность и производство, девелопмент и строительство, IT и телеком, логистика.</div>
+        </div>
+      </div>
+    </section>
+
+    <section style="display:flex;flex-direction:column;gap:16px">
+      <h2 style="margin:0;font-size:28px;font-weight:800;letter-spacing:-0.03em">2. Страницы и компоненты</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;font-size:15px;line-height:1.5;color:#3E4247">
+        <div style="padding:24px;border-radius:22px;background:#F3F5F7;display:flex;flex-direction:column;gap:8px"><b style="color:#111214;font-size:17px">/portfolio</b>Статическая страница. Collection List «Кейсы», сортировка по Editorial priority. Внутри элемента — компонент Case Card. Сетка Grid: 2 колонки на десктопе, 1 на планшете и телефоне.</div>
+        <div style="padding:24px;border-radius:22px;background:#F3F5F7;display:flex;flex-direction:column;gap:8px"><b style="color:#111214;font-size:17px">/portfolio/[slug]</b>Collection Template «Кейсы». Hero из Cover, блоки фактов, задачи, решения и объёма. Галерея — Collection List из Multi-image Gallery + Webflow Lightbox. Похожие — Collection List «Кейсы» с фильтром по совпадающему формату, исключая текущую запись.</div>
+        <div style="padding:24px;border-radius:22px;background:#F3F5F7;display:flex;flex-direction:column;gap:8px"><b style="color:#111214;font-size:17px">Компоненты</b>Header и Footer действующего сайта, Case Card (props не нужны — поля привязаны в CMS-контексте), Filter Bar, CTA «Обсудить проект», Section Title.</div>
+      </div>
+    </section>
+
+    <section style="display:flex;flex-direction:column;gap:16px">
+      <h2 style="margin:0;font-size:28px;font-weight:800;letter-spacing:-0.03em">3. Штатно и надстройки</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px;font-size:15px;line-height:1.55;color:#3E4247">
+        <div style="border:1px solid #E4E7EA;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:8px">
+          <b style="color:#111214;font-size:17px">Штатно в Webflow</b>
+          <span>Коллекции, Multi-reference, Multi-image, Collection List и Template, условная видимость пустых полей, Lightbox для галереи, Grid/Flex и брейкпоинты, компоненты, SEO-поля шаблона.</span>
+        </div>
+        <div style="border:1px solid #E4E7EA;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:8px">
+          <b style="color:#111214;font-size:17px">Finsweet Attributes v2 — List</b>
+          <span>Поиск, мультифильтры, счётчик результатов, сброс и пустое состояние. На Collection List: fs-list-element="list" и fs-list-load="all", чтобы фильтр учитывал весь каталог, а не первую порцию. Форма фильтров — fs-list-element="filters"; чекбоксы — fs-list-field="format" / "industry" и fs-list-value; поиск — fs-list-field="*". Счётчик — results-count, сброс — clear, «Ничего не найдено» — empty. Значения Multi-reference выводятся вложенным списком внутри карточки с тем же fs-list-field. Внутри группы — «или», между группами — «и».</span>
+        </div>
+        <div style="border:1px solid #E4E7EA;border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:8px">
+          <b style="color:#111214;font-size:17px">Свой скрипт ~30 строк</b>
+          <span>Подмена hero по наведению, фокусу и касанию миниатюры; возврат обложки при уходе курсора; сохранение фильтров в URL и позиции прокрутки в sessionStorage при переходе в кейс. Подключается в Page Settings → Before body.</span>
+        </div>
+      </div>
+      <pre style="margin:0;padding:24px;border-radius:22px;background:#111214;color:#E4E7EA;font-size:13px;line-height:1.6;overflow:auto;font-family:ui-monospace,Menlo,monospace">document.querySelectorAll('[data-case-card]').forEach(card =&gt; {
+  const hero = card.querySelector('[data-case-hero]');
+  const cover = hero.src, coverSet = hero.srcset;
+  const show = t =&gt; { hero.src = t.dataset.full; hero.srcset = ''; mark(t); };
+  const mark = t =&gt; card.querySelectorAll('[data-case-thumb]')
+    .forEach(b =&gt; b.setAttribute('aria-pressed', b === t));
+  card.querySelectorAll('[data-case-thumb]').forEach(t =&gt; {
+    const img = new Image(); img.src = t.dataset.full;   // предзагрузка
+    t.addEventListener('mouseenter', () =&gt; show(t));
+    t.addEventListener('focus', () =&gt; show(t));
+    t.addEventListener('click', e =&gt; { e.preventDefault(); show(t); });
+  });
+  card.addEventListener('mouseleave', () =&gt; { hero.src = cover; hero.srcset = coverSet; mark(null); });
+});</pre>
+    </section>
+
+    <section style="display:flex;flex-direction:column;gap:12px;font-size:16px;line-height:1.6;color:#3E4247">
+      <h2 style="margin:0;font-size:28px;font-weight:800;letter-spacing:-0.03em;color:#111214">4. Порядок переноса</h2>
+      <div>1. Создать справочники «Форматы» и «Отрасли», затем коллекцию «Кейсы» с полями выше.</div>
+      <div>2. Импортировать 32 записи через CSV (тексты, теги, приоритет), изображения загрузить в Cover, Thumb 1–4 и Gallery.</div>
+      <div>3. Собрать Case Card и страницу /portfolio, привязать поля, настроить условную видимость.</div>
+      <div>4. Собрать Collection Template кейса, галерею с Lightbox и блок похожих проектов.</div>
+      <div>5. Подключить Finsweet Attributes (List) и скрипт карточек, проверить фильтры на всём каталоге, мобильную версию и клавиатуру.</div>
+      <div>6. Перед публикацией заменить иллюстрации в кейсах с пометкой на отчётные фотографии, если они появятся.</div>
+    </section>
+  </article>
+</sc-if>
+</main>
+
+<footer id="contacts" style="border-top:1px solid #E4E7EA;background:#FFFFFF">
+  <div style="max-width:1440px;margin:0 auto;padding:56px clamp(16px,4vw,48px) 40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:40px">
+    <div style="display:flex;flex-direction:column;gap:20px">
+      <img src="navolne-logo.svg" alt="На волне" style="height:20px;width:auto;align-self:flex-start">
+      <p style="margin:0;font-size:20px;font-weight:600;line-height:1.4;max-width:420px;text-wrap:pretty">Хотите узнать о нас больше? Напишите нам или оставьте заявку, будем рады познакомиться поближе</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:10px;font-size:18px;font-weight:600">
+      <a href="tel:+74951378575">8 495 137-85-75</a>
+      <a href="mailto:go@navolne.agency">go@navolne.agency</a>
+      <div style="display:flex;flex-wrap:wrap;gap:8px 18px;font-size:15px;font-weight:500;margin-top:8px">
+        <a href="https://t.me/navolne_agency">Telegram</a><a href="https://wa.me/79262792796">WhatsApp</a><a href="https://instagram.com/navolne.agency">Instagram</a><a href="https://www.facebook.com/navolne.agency">Facebook</a>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px;align-items:flex-start">
+      <a href="mailto:go@navolne.agency" style="background:#008CB3;color:#FFFFFF;border-radius:999px;padding:16px 28px;font-size:16px;font-weight:700" style-hover="background:#00708F;color:#FFFFFF">оставить заявку</a>
+      <div style="font-size:14px;color:#5E6166;line-height:1.5">Moscow, 1st Tverskaya-Yamskaya Street, 36st1</div>
+    </div>
+  </div>
+  <div style="max-width:1440px;margin:0 auto;padding:20px clamp(16px,4vw,48px) 96px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:13px;color:#5E6166;border-top:1px solid #EEF0F2">
+    <span>©2024 event/mice-агентство на волне</span>
+    <a href="https://www.navolne.agency/policy" style="color:#5E6166">политика конфиденциальности</a>
+  </div>
+</footer>
+
+<sc-if value="{{ lbOpen }}" hint-placeholder-val="{{ false }}">
+  <div role="dialog" aria-modal="true" aria-label="Просмотр фотографий" onClick="{{ lbClose }}" style="position:fixed;inset:0;z-index:100;background:rgba(10,11,12,.94);display:flex;align-items:center;justify-content:center">
+    <img src="{{ lbSrc }}" alt="" onClick="{{ stop }}" style="max-width:min(92vw,1600px);max-height:84vh;object-fit:contain;border-radius:8px;display:block">
+    <button onClick="{{ lbPrev }}" aria-label="Предыдущее фото" style="position:absolute;left:clamp(8px,2vw,32px);top:50%;transform:translateY(-50%);width:56px;height:56px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#FFFFFF;font-size:26px;cursor:pointer" style-hover="background:rgba(255,255,255,.26)">‹</button>
+    <button onClick="{{ lbNext }}" aria-label="Следующее фото" style="position:absolute;right:clamp(8px,2vw,32px);top:50%;transform:translateY(-50%);width:56px;height:56px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#FFFFFF;font-size:26px;cursor:pointer" style-hover="background:rgba(255,255,255,.26)">›</button>
+    <button onClick="{{ lbClose }}" aria-label="Закрыть" style="position:absolute;right:16px;top:16px;width:48px;height:48px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#FFFFFF;font-size:24px;cursor:pointer">×</button>
+    <div style="position:absolute;left:0;right:0;bottom:24px;text-align:center;color:#FFFFFF;font-size:15px;font-weight:600">{{ lbCounter }}</div>
+  </div>
+</sc-if>
+</sc-if>
+
+<sc-if value="{{ showToolbar }}" hint-placeholder-val="{{ true }}">
+  <div role="toolbar" aria-label="Режим прототипа" style="position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:200;background:#111214;border-radius:999px;padding:5px;display:flex;gap:4px;box-shadow:0 10px 30px rgba(0,0,0,.25)">
+    <sc-for list="{{ modes }}" as="md" hint-placeholder-count="3">
+      <button onClick="{{ md.on }}" aria-pressed="{{ md.active }}" style="border:0;border-radius:999px;padding:9px 16px;font-size:13px;font-weight:700;cursor:pointer;background:{{ md.bg }};color:#FFFFFF;white-space:nowrap">{{ md.label }}</button>
+    </sc-for>
+  </div>
+</sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;mobileFilter&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;sheet&quot;,&quot;split&quot;,&quot;quick&quot;],&quot;default&quot;:&quot;sheet&quot;,&quot;tsType&quot;:&quot;'sheet'|'split'|'quick'&quot;,&quot;section&quot;:&quot;Мобильные фильтры&quot;}}">
+class Component extends DCLogic {
+  state = { ready: !!window.NV, route: this.parse(), open: null, hover: {}, lb: null, w: window.innerWidth, menu: false,
+    view: (() => { try { return localStorage.getItem('nv_proto_view') || 'desktop'; } catch (e) { return 'desktop'; } })() };
+  embed = /embed=1/.test(location.search);
+
+  parse() {
+    const h = (location.hash || '').replace(/^#/, '') || '/portfolio';
+    const [path, qs] = h.split('?');
+    const p = new URLSearchParams(qs || '');
+    if (path.indexOf('/portfolio/') === 0) return { name: 'case', slug: decodeURIComponent(path.slice(11)) };
+    if (path === '/webflow') return { name: 'webflow' };
+    const list = (k) => (p.get(k) || '').split(',').filter(Boolean);
+    return { name: 'catalog', f: list('f'), i: list('i'), q: p.get('q') || '' };
+  }
+  ss(k, v) { const key = (this.embed ? 'e_' : '') + k; try { if (v === undefined) return sessionStorage.getItem(key); sessionStorage.setItem(key, v); } catch (e) {} }
+
+  componentDidMount() {
+    if (!this.state.ready) this._poll = setInterval(() => { if (window.NV) { clearInterval(this._poll); this.setState({ ready: true }); } }, 50);
+    this._hash = () => {
+      const prev = this.state.route; const route = this.parse();
+      this.setState({ route, open: null, hover: {}, lb: null, menu: false }, () => {
+        if (route.name === 'catalog' && prev.name !== 'catalog') {
+          const y = +this.ss('nv_scroll') || 0;
+          requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo(0, y)));
+        } else if (route.name !== 'catalog') window.scrollTo(0, 0);
+      });
+    };
+    this._resize = () => this.setState({ w: window.innerWidth });
+    this._key = (e) => {
+      if (this.state.lb !== null) {
+        if (e.key === 'Escape') this.setState({ lb: null });
+        if (e.key === 'ArrowRight') this.step(1);
+        if (e.key === 'ArrowLeft') this.step(-1);
+      } else if (e.key === 'Escape' && this.state.open) this.setState({ open: null });
+    };
+    window.addEventListener('hashchange', this._hash);
+    window.addEventListener('resize', this._resize);
+    window.addEventListener('keydown', this._key);
+  }
+  componentWillUnmount() {
+    clearInterval(this._poll);
+    window.removeEventListener('hashchange', this._hash);
+    window.removeEventListener('resize', this._resize);
+    window.removeEventListener('keydown', this._key);
+  }
+
+  setFilters(patch) {
+    const r = { ...this.state.route, ...patch };
+    const p = new URLSearchParams();
+    if (r.f.length) p.set('f', r.f.join(','));
+    if (r.i.length) p.set('i', r.i.join(','));
+    if (r.q) p.set('q', r.q);
+    const s = p.toString();
+    history.replaceState(null, '', '#/portfolio' + (s ? '?' + s : ''));
+    this.setState({ route: r, hover: {} });
+  }
+  step(d) {
+    const c = this.current(); if (!c) return;
+    const n = c.photos.length;
+    this.setState((s) => ({ lb: (s.lb + d + n) % n }));
+  }
+  current() { const r = this.state.route; return r.name === 'case' ? window.NV.cases.find((c) => c.slug === r.slug) : null; }
+
+  match(c, r, skip) {
+    if (skip !== 'f' && r.f.length && !c.formats.some((x) => r.f.includes(x))) return false;
+    if (skip !== 'i' && r.i.length && !c.industries.some((x) => r.i.includes(x))) return false;
+    if (r.q) {
+      const N = window.NV; const lab = (arr, ids) => ids.map((id) => (arr.find((a) => a[0] === id) || [])[1]).join(' ');
+      const hay = [c.client, c.format, c.title, c.lead, c.place, c.about, lab(N.formats, c.formats), lab(N.industries, c.industries)].join(' ').toLowerCase().replace(/ё/g, 'е');
+      const words = r.q.toLowerCase().replace(/ё/g, 'е').split(/\s+/).filter(Boolean);
+      if (!words.every((w) => hay.includes(w))) return false;
+    }
+    return true;
+  }
+  plural(n, a, b, c) { const m10 = n % 10, m100 = n % 100; return m10 === 1 && m100 !== 11 ? a : m10 >= 2 && m10 <= 4 && (m100 < 10 || m100 >= 20) ? b : c; }
+  logos(c) {
+    if (c.nda || !c.logo) return [];
+    return [c.logo, c.logo2].filter(Boolean).map((src) => ({ src, alt: c.client }));
+  }
+
+  variant() {
+    const u = new URLSearchParams(location.search).get('mf');
+    return u || this.state.mf || this.props.mobileFilter || 'sheet';
+  }
+  mobileFilters(mobile, r, N, sorted, found, fLab, iLab) {
+    const v = this.variant(), s = this.state;
+    if (!mobile) return { mBar: false, sheetOpen: false, tagsInline: true, cardMeta: true };
+    const groupTags = (k, arr) => arr.map(([id, label]) => {
+      const checked = r[k].includes(id);
+      const count = sorted.filter((c) => this.match(c, r, k) && c[k === 'f' ? 'formats' : 'industries'].includes(id)).length;
+      const dis = !count && !checked;
+      return { id, label, count, checked, disabled: dis, cursor: dis ? 'default' : 'pointer', mark: checked ? '✓' : '',
+        ink: dis ? '#B4B8BD' : '#111214', box: checked ? '#008CB3' : '#B9BEC4', boxBg: checked ? '#008CB3' : '#FFFFFF',
+        toggle: () => this.setFilters({ [k]: checked ? r[k].filter((x) => x !== id) : [...r[k], id] }) };
+    }).sort((a, b) => b.count - a.count);
+    const G = { f: { title: 'Формат', tags: groupTags('f', N.formats) }, i: { title: 'Отрасль', tags: groupTags('i', N.industries) } };
+    const pill = (on) => ({ border: on ? '#008CB3' : '#D5D9DE', bg: on ? '#008CB3' : '#FFFFFF', ink: on ? '#FFFFFF' : '#111214', badgeBg: on ? '#FFFFFF' : '#008CB3', badgeInk: on ? '#008CB3' : '#FFFFFF' });
+    const open = (key) => () => this.setState({ sheet: key });
+    const nSel = r.f.length + r.i.length;
+    let mButtons;
+    if (v === 'split') {
+      mButtons = ['f', 'i'].map((k) => ({ label: G[k].title, badge: r[k].length, hasBadge: r[k].length > 0, caret: true, flex: '1 1 0', on: open(k), ...pill(r[k].length > 0) }));
+    } else if (v === 'quick') {
+      const quick = [...G.f.tags.slice(0, 4).map((t) => ({ ...t, k: 'f' }))];
+      mButtons = [{ label: 'Все фильтры', badge: nSel, hasBadge: nSel > 0, caret: false, flex: 'none', on: open('all'), ...pill(nSel > 0) },
+        ...quick.map((t) => ({ label: t.label, hasBadge: false, caret: false, flex: 'none', on: t.disabled ? () => {} : t.toggle, ...pill(t.checked) }))];
+    } else {
+      mButtons = [{ label: 'Фильтры', badge: nSel, hasBadge: nSel > 0, caret: false, flex: '1 1 0', on: open('all'), ...pill(nSel > 0) }];
+    }
+    const sk = s.sheet;
+    const groups = sk === 'f' || sk === 'i' ? [{ ...G[sk], showTitle: false }] : [{ ...G.f, showTitle: true }, { ...G.i, showTitle: true }];
+    return { mBar: true, tagsInline: false, cardMeta: false, mButtons,
+      sheetOpen: !!sk, sheetGroups: groups, sheetTitle: sk === 'f' ? 'Формат события' : sk === 'i' ? 'Отрасль клиента' : 'Фильтры',
+      sheetCta: found ? 'Показать ' + found + ' ' + this.plural(found, 'проект', 'проекта', 'проектов') : 'Ничего не найдено',
+      closeSheet: () => this.setState({ sheet: null }),
+      sheetReset: () => this.setFilters(sk === 'f' ? { f: [] } : sk === 'i' ? { i: [] } : { f: [], i: [], q: '' }) };
+  }
+  renderVals() {
+    const s = this.state;
+    const mobile = s.w < 720;
+    const navMobile = s.w < 1024;
+    const base = { desktop: !navMobile, mobile: navMobile, menuOpen: s.menu, toggleMenu: () => this.setState({ menu: !s.menu }),
+      mediaCols: mobile ? 'minmax(0,1fr)' : 'minmax(0,1fr) 19%', stripDir: mobile ? 'row' : 'column', thumbAspect: mobile ? '4 / 3' : 'auto',
+      heroAspect: mobile ? '4 / 3' : '21 / 9', leadSpan: mobile ? 1 : 1,
+      stop: (e) => e.stopPropagation() };
+    const realPhone = s.w < 720;
+    const phoneFrame = !this.embed && !realPhone && s.view === 'phone';
+    const setView = (v) => { try { localStorage.setItem('nv_proto_view', v); } catch (e) {} this.setState({ view: v }); };
+    const modes = [
+      { label: 'Десктоп', on: () => { setView('desktop'); if (s.route.name === 'webflow') location.hash = '#/portfolio'; }, key: 'desktop' },
+      { label: 'Телефон', on: () => { setView('phone'); if (s.route.name === 'webflow') location.hash = '#/portfolio'; }, key: 'phone' },
+      { label: 'Схема Webflow', on: () => { setView('desktop'); location.hash = '#/webflow'; }, key: 'webflow' },
+    ].concat(s.view === 'phone' && s.route.name !== 'webflow' ? [['sheet', 'A · Шторка'], ['split', 'B · Две кнопки'], ['quick', 'C · Быстрые теги']].map(([k, label]) => ({ label, key: 'mf_' + k, mfKey: k, on: () => this.setState({ mf: k }) })) : [])
+    .map((m) => { if (m.mfKey) { const act = this.variant() === m.mfKey; return { ...m, active: act, bg: act ? '#3A3D42' : 'transparent' }; } const act = m.key === 'webflow' ? s.route.name === 'webflow' : s.route.name !== 'webflow' && s.view === m.key; return { ...m, active: act, bg: act ? '#008CB3' : 'transparent' }; });
+    const out = { ...base, phoneFrame, page: !phoneFrame, showToolbar: !this.embed && !realPhone, modes,
+      frameSrc: location.pathname + '?embed=1&mf=' + this.variant() + (location.hash || '#/portfolio'),
+      mBar: false, sheetOpen: false, tagsInline: true, cardMeta: !mobile,
+      isCatalog: false, isCase: false, isWebflow: s.route.name === 'webflow', isMissing: false, lbOpen: false };
+    if (!s.ready || phoneFrame) return out;
+    const N = window.NV, r = s.route;
+    const fLab = (id) => (N.formats.find((a) => a[0] === id) || [])[1];
+    const iLab = (id) => (N.industries.find((a) => a[0] === id) || [])[1];
+    const sorted = N.cases.slice().sort((a, b) => a.priority - b.priority);
+
+    if (r.name === 'catalog') {
+      r.q = '';
+      const list = sorted.filter((c) => this.match(c, r));
+      const total = N.cases.length;
+      const panelKey = s.open;
+      const panelOptions = !panelKey ? [] : (panelKey === 'f' ? N.formats : N.industries).map(([id, label]) => {
+        const checked = r[panelKey].includes(id);
+        const count = sorted.filter((c) => this.match(c, r, panelKey) && c[panelKey === 'f' ? 'formats' : 'industries'].includes(id)).length;
+        return { label, count, checked, disabled: !count && !checked, mark: checked ? '✓' : '',
+          bg: checked ? '#E5F4F8' : 'transparent', ink: !count && !checked ? '#A9AEB4' : '#111214',
+          box: checked ? '#008CB3' : '#B9BEC4', boxBg: checked ? '#008CB3' : '#FFFFFF',
+          toggle: () => this.setFilters({ [panelKey]: checked ? r[panelKey].filter((x) => x !== id) : [...r[panelKey], id] }) };
+      });
+      const chips = [
+        ...r.f.map((id) => ({ label: fLab(id), remove: () => this.setFilters({ f: r.f.filter((x) => x !== id) }) })),
+        ...r.i.map((id) => ({ label: iLab(id), remove: () => this.setFilters({ i: r.i.filter((x) => x !== id) }) })),
+        ...(r.q ? [{ label: '«' + r.q + '»', remove: () => this.setFilters({ q: '' }) }] : []),
+      ];
+      const go = () => { this.ss('nv_scroll', String(window.scrollY)); this.ss('nv_cat', location.hash || '#/portfolio'); };
+      const cards = list.map((c) => {
+        const a = s.hover[c.slug] || 0;
+        const ph = c.photos;
+        const set = (i) => { if ((s.hover[c.slug] || 0) !== i) this.setState((st) => ({ hover: { ...st.hover, [c.slug]: i } })); };
+        const reset = () => { if (s.hover[c.slug]) this.setState((st) => { const h = { ...st.hover }; delete h[c.slug]; return { hover: h }; }); };
+        const thumbs = ph.slice(1, 5).map((src, k) => {
+          const i = k + 1; const more = k === 3 && ph.length > 5 ? ph.length - 5 : 0;
+          return { src, active: a === i, ring: a === i ? 'inset 0 0 0 3px #008CB3' : 'none',
+            more: !!more, moreText: more ? 'ещё ' + more + ' ' + this.plural(more, 'фото', 'фото', 'фото') : '',
+            aria: 'Показать фото ' + (i + 1) + ' из ' + ph.length,
+            on: () => set(i), click: (e) => { e.preventDefault(); e.stopPropagation(); set(i); } };
+        });
+        const lg = this.logos(c);
+        return { idx: '[ ' + (list.indexOf(c) + 1) + ' ]', ind: c.industries.map(iLab).join(', ').toLowerCase(), href: '#/portfolio/' + c.slug, go, ariaOpen: 'Открыть кейс: ' + c.client + ' — ' + c.format,
+          layers: ph.slice(0, 5).map((src, i) => ({ src, op: i === a ? 1 : 0 })),
+          thumbs, hasThumbs: thumbs.length > 0, logos: lg, noLogo: !lg.length, client: c.client,
+          format: c.format, lead: c.lead, place: c.place, metric: c.metric || '', hasMetric: !!c.metric,
+          tags: c.formats.map(fLab).join(' · '),
+          leave: reset, blur: (e) => { if (!e.currentTarget.contains(e.relatedTarget)) reset(); } };
+      });
+      const cnt = (arr) => arr.length ? ' · ' + arr.length : '';
+      const btn = (k) => { const on = r[k].length > 0 || s.open === k; return { border: on ? '#008CB3' : '#D5D9DE', bg: r[k].length ? '#008CB3' : '#FFFFFF', ink: r[k].length ? '#FFFFFF' : '#111214' }; };
+      const bf = btn('f'), bi = btn('i');
+      Object.assign(out, {
+        isCatalog: true, q: r.q, onQ: (e) => this.setFilters({ q: e.target.value }),
+        introText: total + ' ' + this.plural(total, 'проект', 'проекта', 'проектов') + ' — деловые выезды, конференции, корпоративные праздники и бренд-пространства для банков, фармы, промышленности и девелопмента.',
+        fmtLabel: 'Формат' + cnt(r.f), indLabel: 'Отрасль' + cnt(r.i),
+        fmtBorder: bf.border, fmtBg: bf.bg, fmtInk: bf.ink, indBorder: bi.border, indBg: bi.bg, indInk: bi.ink,
+        fmtOpen: s.open === 'f', indOpen: s.open === 'i',
+        openFmt: () => this.setState({ open: s.open === 'f' ? null : 'f' }), openInd: () => this.setState({ open: s.open === 'i' ? null : 'i' }),
+        closePanel: () => this.setState({ open: null }), panelOpen: !!s.open, panelTitle: s.open === 'f' ? 'Формат события' : 'Отрасль клиента', panelOptions,
+        tagCols: mobile ? 'minmax(0,1fr)' : '88px minmax(0,1fr)', tagWrap: mobile ? 'nowrap' : 'wrap',
+        tagGroups: [['f', 'Формат', N.formats], ['i', 'Отрасль', N.industries]].map(([k, title, arr]) => ({ title,
+          tags: arr.map(([id, label]) => {
+            const checked = r[k].includes(id);
+            const count = sorted.filter((c) => this.match(c, r, k) && c[k === 'f' ? 'formats' : 'industries'].includes(id)).length;
+            const dis = !count && !checked;
+            return { label, count, checked, disabled: dis, cursor: dis ? 'default' : 'pointer',
+              border: checked ? '#008CB3' : '#DADDE1', bg: checked ? '#008CB3' : '#FFFFFF', ink: checked ? '#FFFFFF' : dis ? '#B4B8BD' : '#111214',
+              toggle: () => this.setFilters({ [k]: checked ? r[k].filter((x) => x !== id) : [...r[k], id] }) };
+          }).sort((a, b) => b.count - a.count) })),
+        chips: [], hasChips: chips.length > 0,
+        ...this.mobileFilters(mobile, r, N, sorted, list.length, fLab, iLab), reset: () => this.setFilters({ f: [], i: [], q: '' }),
+        resultText: chips.length ? 'Найдено ' + list.length + ' из ' + total : 'Все проекты · ' + total,
+        cards, empty: list.length === 0,
+      });
+    } else if (r.name === 'case') {
+      const c = this.current();
+      if (!c) { out.isMissing = true; return out; }
+      const lg = this.logos(c);
+      const score = (o) => o.formats.filter((x) => c.formats.includes(x)).length * 2 + o.industries.filter((x) => c.industries.includes(x)).length;
+      const similar = sorted.filter((o) => o.slug !== c.slug).map((o) => ({ o, sc: score(o) })).filter((x) => x.sc > 0)
+        .sort((a, b) => b.sc - a.sc || a.o.priority - b.o.priority).slice(0, 3)
+        .map(({ o }) => ({ href: '#/portfolio/' + o.slug, src: o.photos[0], client: o.client, format: o.format }));
+      const n = c.photos.length;
+      Object.assign(out, {
+        isCase: true, backHref: this.ss('nv_cat') || '#/portfolio', similar,
+        openHero: () => this.setState({ lb: 0 }),
+        cc: { hero: c.photos[0], title: c.title, client: c.client, logos: lg, noLogo: !lg.length, format: c.format, lead: c.lead,
+          formatTags: c.formats.map(fLab).join(', '), industryTags: c.industries.map(iLab).join(', '), place: c.place,
+          facts: c.facts.map(([v, l]) => ({ v, l })), hasFacts: c.facts.length > 0,
+          task: c.task, about: c.about, extra: c.extra || '', hasExtra: !!c.extra,
+          scope: c.scope.map(([t, d], i) => ({ n: String(i + 1).padStart(2, '0'), t, d })),
+          results: c.results.map(([v, l]) => ({ v, l })), hasResults: c.results.length > 0,
+          photoCount: n + ' ' + this.plural(n, 'фотография', 'фотографии', 'фотографий'),
+          gallery: c.photos.map((src, i) => ({ src, span: i === 0 && !mobile && n > 3 ? 2 : 1, aria: 'Открыть фото ' + (i + 1) + ' из ' + n, open: () => this.setState({ lb: i }) })),
+          note: c.note || '', hasNote: !!c.note },
+      });
+      if (s.lb !== null) Object.assign(out, { lbOpen: true, lbSrc: c.photos[s.lb], lbCounter: (s.lb + 1) + ' / ' + n,
+        lbClose: () => this.setState({ lb: null }), lbPrev: (e) => { e.stopPropagation(); this.step(-1); }, lbNext: (e) => { e.stopPropagation(); this.step(1); } });
+    }
+    return out;
+  }
+}
+</script>
+</body>
+</html>
